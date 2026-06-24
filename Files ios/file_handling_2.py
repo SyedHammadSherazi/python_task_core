@@ -1,7 +1,7 @@
 #  Count how many lines and words are in a file. 
 words_number=0
 line_count=0
-with open("file_handling-file.txt") as f:
+with open("Files ios/file_handling-file.txt") as f:
     
     for words in f:
         
