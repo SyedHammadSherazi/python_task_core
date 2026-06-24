@@ -4,7 +4,8 @@ student={
     "Ali" : 300,
     "Ahmad" : 250
 }
-All_marks= (student["Ali"] + student["Ahmad"] + student["Ahsan"])
+All_marks= sum(student.values())
+
 print("students name and marks: " , student )
 print("Total marks", All_marks)
 Avg_marks=All_marks/len(student)
