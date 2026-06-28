@@ -5,4 +5,4 @@ c=30
 
 
 F= c * 9/5 + 32 
-print("Fahrenheit is:", c* 9/5 +32,"F")
+print(f"Fahrenheit is: {F}")

@@ -11,11 +11,3 @@ while guess_number != number:
     elif guess_number != number:
         print("your guess number is not match")
 
-# while guess_number==number and new_number == number:
-#     print("you win this game : ")
-#     if new_number !=number:
-#         input(new_number)
-#     elif new_number == number:
-#         print("you win this game")
-#     else:
-#         print("This is number is not correct")

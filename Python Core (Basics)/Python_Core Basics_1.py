@@ -6,4 +6,4 @@ name=input("enter your name : ")
 age=int(input("enter your age : "))
 
 print("User name is : ", name)
-print(f"Hi {name}", "next year you", age + 1 , "year old"  )
+print(f"Hi {name} next year you {age + 1 } year old"  )
