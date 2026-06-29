@@ -5,7 +5,9 @@ def sum_average():
     total = sum(numbers)
     average = total / len(numbers)
 
-    print("Sum:", total)
-    print("Average:", average)
+    return total, average
 
-sum_average()
+total, average = sum_average()
+
+print("Sum:", total)
+print("Average:", average)
